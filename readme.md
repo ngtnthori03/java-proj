@@ -2,7 +2,7 @@
 ## zely.ngx.gradle-proj
 
 ## gradle init task
-```sh
+```shell
 > Task :help
 Detailed task information for init
 
@@ -74,3 +74,9 @@ Description
 Group
      Build Setup
 ``` 
+
+## Usage:
+
+```shell
+    java-proj [name-project] [version]
+```
