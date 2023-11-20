@@ -1,0 +1,7 @@
+
+
+mvn archetype:generate  -DgroupId=zely.origami -DartifactId=$1 \
+                        -Dname=$1 -Dversion=$2 -DinteractiveMode=false \
+                        -DjdkVersion=17
+
+(cd $1 && gradle init --type pom --dsl kotlin --incubating)
